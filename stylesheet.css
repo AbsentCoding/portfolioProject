@@ -1,0 +1,42 @@
+.page {
+    background-color: whitesmoke;
+    font-family: roboto slab;
+    max-width: 1920px;
+    
+}
+
+.nav-container {
+    display: flex;
+    margin: 20px 25px;
+    font-weight: bold;
+}
+
+.nav-items {
+    margin-left: 700px;
+    margin-right: 50px;
+}
+
+.nav-item {
+    
+    display: inline-block;
+    margin: 10px;
+    align-items: right;
+    text-decoration: underline;
+}
+
+.main-container {
+    
+}
+
+.about-me {
+
+}
+
+.about-me-p {
+    display: flex;
+}
+
+.my-picture {
+    display: flex;
+    float: right;
+}
