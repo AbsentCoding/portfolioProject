@@ -39,4 +39,6 @@
 .my-picture {
     display: flex;
     float: right;
+    max-width: 50%;
+    max-height: 50%;
 }
