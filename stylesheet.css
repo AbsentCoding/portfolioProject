@@ -1,19 +1,38 @@
 .page {
     background-color: whitesmoke;
     font-family: roboto slab;
-    max-width: 1920px;
+    max-width: 100%;
     
+}
+
+.header-container {
+    display: flex;
+    width: inherit;
+    border-bottom: 5px dotted black;
 }
 
 .nav-container {
     display: flex;
-    margin: 20px 25px;
+    margin: 25px 25px;
     font-weight: bold;
 }
 
+.name-container {
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
 .nav-items {
-    margin-left: 700px;
-    margin-right: 50px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: right;
 }
 
 .nav-item {
@@ -28,17 +47,58 @@
     
 }
 
-.about-me {
-
+.about-me-container {
+    width: fit-content;
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
 }
 
 .about-me-p {
     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pciture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 100px;
 }
 
 .my-picture {
-    display: flex;
-    float: right;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.project-container {
+
+}
+
+.projects {
+
+}
+
+.itemized-projects {
+
+}
+
+.skills-container {
+
+}
+
+.skills {
+
+}
+
+.footer-container {
+
+}
+
+.signoff {
+
 }
