@@ -84,6 +84,22 @@
 }
 
 .itemized-projects {
+    list-style-type: none;
+}
+
+#projects {
+    margin: 10px 0px;
+}
+
+.first-project {
+
+}
+
+.second-project {
+
+}
+
+.third-project {
 
 }
 
@@ -102,5 +118,3 @@
 .signoff {
 
 }
-
-added to pull
