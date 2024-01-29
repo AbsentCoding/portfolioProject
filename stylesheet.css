@@ -6,19 +6,14 @@
 }
 
 .header-container {
-    display: flex;
     width: inherit;
     border-bottom: 5px dotted black;
-}
-
-.nav-container {
     display: flex;
-    margin: 25px 25px;
-    font-weight: bold;
+    justify-content: space-between;
 }
 
 .name-container {
-
+    display: flex;
 }
 
 .name {
@@ -26,21 +21,26 @@
     font-weight: bolder;
     margin-left: 25px;
     margin-right: 25px;
-    float: left;
 }
+
+.nav-container {
+    float: right;
+    margin: 25px 25px;
+    font-weight: bold;}
+
 .nav-items {
     align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    float: right;
+    margin: 0px 25px;
 }
 
 .nav-item {
-    
     display: inline-block;
     margin: 10px;
     align-items: right;
-    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
 }
 
 .main-container {
@@ -63,11 +63,11 @@
     margin-right: 100px;
 }
 
-.pciture-container {
+.picture-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 25px 100px;
+    justify-content: space-around;
+    
 }
 
 .my-picture {
