@@ -1,12 +1,12 @@
 .page {
     background-color: whitesmoke;
     font-family: roboto slab;
-    max-width: 100%;
+    width: 100%;
     
 }
 
 .header-container {
-    width: inherit;
+    /* width: inherit; */
     border-bottom: 5px dotted black;
     display: flex;
     justify-content: space-between;
@@ -66,8 +66,7 @@ a {
 .picture-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 .my-picture {
@@ -104,16 +103,31 @@ a {
 }
 
 .skills-container {
-
+    
 }
 
 .skills {
+    text-align: center;
+}
 
+.skills-cions {
+       
+    width: 100%;
+    justify-content: center;
+
+}
+
+#skills-icons {
+    display: inline-block;
 }
 
 .footer-container {
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 .signoff {
 
